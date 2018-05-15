@@ -52,15 +52,15 @@
 #define MQTT_VERSION MQTT_VERSION_3_1_1
 
 // Wifi: SSID and password
-const char* WIFI_SSID = "ApBelkinWIFi";
-const char* WIFI_PASSWORD = "junkilin";
+const char* WIFI_SSID = "[Redacted]";
+const char* WIFI_PASSWORD = "[Redacted]";
 
 // MQTT: ID, server IP, port, username and password
 const PROGMEM char* MQTT_CLIENT_ID = "weatherstation";
-const PROGMEM char* MQTT_SERVER_IP = "192.168.0.104";
+const PROGMEM char* MQTT_SERVER_IP = "[Redacted]";
 const PROGMEM uint16_t MQTT_SERVER_PORT = 1883;
-const PROGMEM char* MQTT_USER = "homeassistant";
-const PROGMEM char* MQTT_PASSWORD = "raspberry";
+const PROGMEM char* MQTT_USER = "[Redacted]";
+const PROGMEM char* MQTT_PASSWORD = "[Redacted]";
 
 // MQTT: topic
 const PROGMEM char* MQTT_SENSOR_TOPIC = "weatherstation/sensor";
